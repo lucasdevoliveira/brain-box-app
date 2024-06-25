@@ -3,7 +3,7 @@
 import Nav from "@/components/nav"
 import { useRouter } from 'next/navigation'
 import Header from "@/components/header"
-import InviteImage from "../../../../../public/images/Illustration.png"
+import InviteImage from "../../../../../public/images/illustration.png"
 import Image from "next/image"
 import { Copy } from "lucide-react"
 
