@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation'
 
 type HeaderProps = {
   title: string
-  hiddenRoute: boolean
+  hiddenRoute?: boolean
 }
 
 const Header:FC<HeaderProps> = ({ title, hiddenRoute }) => {
